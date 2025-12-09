@@ -9,7 +9,6 @@ type Post = {
 };
 
 const posts: Post[] = [
- const posts: Post[] = [
   {
     slug: 'treino-30-minutos-por-dia',
     title: 'Como treinar 30 minutos por dia sem abandonar o corre',
@@ -18,32 +17,8 @@ const posts: Post[] = [
     excerpt: 'Rotina enxuta pra conciliar trampo, estudo e treino sem pirar.',
     imageUrl: '/imagens/treino-30-min.jpg',
   },
-  {
-    slug: 'suplementos-que-valem-o-pix',
-    title: 'Suplementos que realmente valem o pix pra quem ganha pouco',
-    category: 'Suplementos',
-    date: '2025-01-11',
-    excerpt: 'Corta o supérfluo e foca só no que ajuda de verdade no corre.',
-    imageUrl: '/imagens/suplementos-baratos.jpg',
-  },
-  {
-    slug: 'tenis-custo-beneficio-trampo-treino',
-    title: 'Tênis custo-benefício pra trampar em pé e treinar depois',
-    category: 'Estilo de Vida',
-    date: '2025-01-13',
-    excerpt: 'Modelos que aguentam o dia inteiro e ainda seguram o treino.',
-    imageUrl: '/imagens/tenis-custo-beneficio.jpg',
-  },
-  {
-    slug: 'rotina-sono-atleta-do-corre',
-    title: 'Rotina de sono pro atleta do próprio corre',
-    category: 'Mente',
-    date: '2025-01-15',
-    excerpt: 'Como dormir melhor mesmo acordando cedo e dormindo tarde.',
-    imageUrl: '/imagens/sono-atleta.jpg',
-  },
+  // aqui você vai adicionar os outros 8 posts depois
 ];
-
 
 export default function Home() {
   const [featured, ...rest] = posts;
